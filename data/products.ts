@@ -1,0 +1,113 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Sweet Mango',
+    category: 'Fruit',
+    price: 3.5,
+    unit: 'each',
+    rating: 4.8,
+    badge: 'Best seller',
+    origin: 'Nigerian farm',
+    image:
+      'https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80',
+    description: 'Juicy and fragrant, perfect for smoothies and breakfast bowls.',
+  },
+  {
+    id: 2,
+    name: 'Crisp Spinach',
+    category: 'Vegetable',
+    price: 2.7,
+    unit: 'bunch',
+    rating: 4.9,
+    badge: 'Fresh pick',
+    origin: 'Local greens',
+    image:
+      'https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80',
+    description: 'Tender leaves packed with vitamins for salads, soups, and sautés.',
+  },
+  {
+    id: 3,
+    name: 'Orange Carrot',
+    category: 'Vegetable',
+    price: 2.2,
+    unit: 'kg',
+    rating: 4.7,
+    badge: 'Healthy choice',
+    origin: 'Northern farms',
+    image:
+      'https://images.unsplash.com/photo-1447175008436-054170c2e979?auto=format&fit=crop&w=800&q=80',
+    description: 'Naturally sweet and crunchy, ideal for juices and roasting.',
+  },
+  {
+    id: 4,
+    name: 'Red Apple',
+    category: 'Fruit',
+    price: 4.1,
+    unit: 'pack',
+    rating: 4.8,
+    badge: 'Organic',
+    origin: 'Mountain orchard',
+    image:
+      'https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=800&q=80',
+    description: 'Crisp, juicy, and perfect for snacking and homemade pies.',
+  },
+  {
+    id: 5,
+    name: 'Avocado',
+    category: 'Fruit',
+    price: 2.9,
+    unit: 'each',
+    rating: 4.9,
+    badge: 'Rich in nutrients',
+    origin: 'Tropical grove',
+    image:
+      'https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?auto=format&fit=crop&w=800&q=80',
+    description: 'Creamy texture and buttery flavor for salads, toast, and bowls.',
+  },
+  {
+    id: 6,
+    name: 'Tomato Basket',
+    category: 'Vegetable',
+    price: 3.4,
+    unit: 'kg',
+    rating: 4.8,
+    badge: 'Seasonal',
+    origin: 'Greenhouse grown',
+    image:
+      'https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=800&q=80',
+    description: 'Rich flavor and juicy texture for sauces, salads, and roasting.',
+  },
+  {
+    id: 7,
+    name: 'Banana Bunch',
+    category: 'Fruit',
+    price: 2.6,
+    unit: 'bunch',
+    rating: 4.7,
+    badge: 'Energy boost',
+    origin: 'Sunrise farm',
+    image:
+      'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80',
+    description: 'Sweet and satisfying, ideal for breakfast and smoothies.',
+  },
+  {
+    id: 8,
+    name: 'Fresh Pepper Mix',
+    category: 'Vegetable',
+    price: 3.1,
+    unit: 'pack',
+    rating: 4.8,
+    badge: 'Chef favorite',
+    origin: 'Garden harvest',
+    image:
+      'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    description: 'A colorful mix of sweet peppers for stir-fries and salads.',
+  },
+];
+
+export const categories = [
+  { name: 'Fruits', count: 14, icon: '🍋' },
+  { name: 'Vegetables', count: 18, icon: '🥕' },
+  { name: 'Leafy Greens', count: 9, icon: '🥬' },
+  { name: 'Organic Box', count: 5, icon: '🥦' },
+];
